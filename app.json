@@ -1,0 +1,16 @@
+{
+    "id": "c844f7b5-ff6a-4169-abe9-1292cfc184c4",
+    "version": "0.0.1",
+    "requiredApiVersion": "^1.19.0",
+    "iconFile": "icon.png",
+    "author": {
+        "name": "Rohan Lekhwani",
+        "homepage": "https://ronlek.github.io",
+        "support": "https://ronlek.github.io"
+    },
+    "name": "liftoff",
+    "nameSlug": "liftoff",
+    "classFile": "LiftoffApp.ts",
+    "description": "My first RC App!",
+    "implements": []
+}
