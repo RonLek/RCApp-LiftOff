@@ -11,7 +11,7 @@ export class LiftoffCommand implements ISlashCommand {
     constructor(private readonly app: App) {}
 
     public async executor(context: SlashCommandContext, read: IRead, modify: IModify): Promise<void> {
-        const message = 'Time to lift off!';
+        const message = 'Lift off now!';
 
         const messageStructure = await modify.getCreator().startMessage();
         const sender = context.getSender(); // the user calling the slashcommand
